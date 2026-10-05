@@ -11,7 +11,7 @@ function processOrder() {
           customer : "Rojan",
           item : "chicken burger",
           quantity : 2,
-          total : 500,
+          total : 500, 
         });
       } else {
         reject("failed to process the order");
@@ -31,4 +31,8 @@ processOrder()
   })
   .catch((error) => {
     console.log("error", error);
-  });
+  })
+
+  .finally(() => {
+    console.log("Order process completed");
+  })
