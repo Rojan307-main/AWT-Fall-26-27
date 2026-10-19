@@ -1,3 +1,9 @@
+## Student Details
+
+| SL | Name | Student ID |
+|---:|---|---|
+| 2 | Rojan, Md Abu Bokor Siddik | 22-47890-2 |
+
 # Krown Dex Backend – Setup & Run Guide
 
 ````bash
